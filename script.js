@@ -15,7 +15,7 @@ var popular =[
 
 var cart = [];
 function showProducts(){
-    let = "";
+    let clutter = "";
     products.forEach(function(product , index){
         clutter += `<div class="product w-fit rounded-xl p-2 bg-white">
             <div class="image w-[14rem] h-[13rem] bg-zinc-200 rounded-xl overflow-hidden">
